@@ -16,6 +16,8 @@
 		A998AC0E236D9A96008756BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A998AC0C236D9A96008756BD /* LaunchScreen.storyboard */; };
 		A998AC19236D9A96008756BD /* SubscriptionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC18236D9A96008756BD /* SubscriptionsTests.swift */; };
 		A998AC24236D9A96008756BD /* SubscriptionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC23236D9A96008756BD /* SubscriptionsUITests.swift */; };
+		A998AC32236D9D0B008756BD /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC31236D9D0B008756BD /* Subscription.swift */; };
+		A998AC34236DA6BA008756BD /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC33236DA6BA008756BD /* SubscriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A998AC1F236D9A96008756BD /* SubscriptionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubscriptionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A998AC23236D9A96008756BD /* SubscriptionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsUITests.swift; sourceTree = "<group>"; };
 		A998AC25236D9A96008756BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A998AC31236D9D0B008756BD /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		A998AC33236DA6BA008756BD /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				A998ABFE236D9A91008756BD /* AppDelegate.swift */,
 				A998AC00236D9A91008756BD /* SceneDelegate.swift */,
 				A998AC05236D9A91008756BD /* ContentView.swift */,
+				A998AC31236D9D0B008756BD /* Subscription.swift */,
+				A998AC33236DA6BA008756BD /* SubscriptionView.swift */,
 				A998AC07236D9A96008756BD /* Assets.xcassets */,
 				A998AC0C236D9A96008756BD /* LaunchScreen.storyboard */,
 				A998AC0F236D9A96008756BD /* Info.plist */,
@@ -274,6 +280,8 @@
 				A998ABFF236D9A91008756BD /* AppDelegate.swift in Sources */,
 				A998AC06236D9A91008756BD /* ContentView.swift in Sources */,
 				A998AC01236D9A91008756BD /* SceneDelegate.swift in Sources */,
+				A998AC32236D9D0B008756BD /* Subscription.swift in Sources */,
+				A998AC34236DA6BA008756BD /* SubscriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
