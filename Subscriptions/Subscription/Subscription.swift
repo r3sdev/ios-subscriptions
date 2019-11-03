@@ -10,8 +10,13 @@ import Foundation
 import CoreData
 
 public class Subscription: NSManagedObject, Identifiable {
-    @NSManaged public var createdAt: Date?
-    @NSManaged public var title: String?
+    @NSManaged public var createdAt: Date
+    @NSManaged public var title: String
+    @NSManaged public var amount: String
+
+    @NSManaged public var startDate: Date?
+    @NSManaged public var endDate: Date?
+
 }
 
 extension Subscription {

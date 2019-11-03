@@ -18,6 +18,7 @@
 		A998AC24236D9A96008756BD /* SubscriptionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC23236D9A96008756BD /* SubscriptionsUITests.swift */; };
 		A998AC32236D9D0B008756BD /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC31236D9D0B008756BD /* Subscription.swift */; };
 		A998AC34236DA6BA008756BD /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC33236DA6BA008756BD /* SubscriptionView.swift */; };
+		A998AC38236DBF5A008756BD /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A998AC37236DBF5A008756BD /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		A998AC25236D9A96008756BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A998AC31236D9D0B008756BD /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
 		A998AC33236DA6BA008756BD /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
+		A998AC37236DBF5A008756BD /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,16 +107,14 @@
 		A998ABFD236D9A91008756BD /* Subscriptions */ = {
 			isa = PBXGroup;
 			children = (
-				A998ABFE236D9A91008756BD /* AppDelegate.swift */,
-				A998AC00236D9A91008756BD /* SceneDelegate.swift */,
-				A998AC05236D9A91008756BD /* ContentView.swift */,
-				A998AC31236D9D0B008756BD /* Subscription.swift */,
-				A998AC33236DA6BA008756BD /* SubscriptionView.swift */,
+				A998AC0F236D9A96008756BD /* Info.plist */,
 				A998AC07236D9A96008756BD /* Assets.xcassets */,
 				A998AC0C236D9A96008756BD /* LaunchScreen.storyboard */,
-				A998AC0F236D9A96008756BD /* Info.plist */,
 				A998AC02236D9A91008756BD /* Subscriptions.xcdatamodeld */,
+				A998AC35236DBF18008756BD /* Default */,
+				A998AC36236DBF36008756BD /* Subscription */,
 				A998AC09236D9A96008756BD /* Preview Content */,
+				A998AC37236DBF5A008756BD /* UserSettings.swift */,
 			);
 			path = Subscriptions;
 			sourceTree = "<group>";
@@ -143,6 +143,25 @@
 				A998AC25236D9A96008756BD /* Info.plist */,
 			);
 			path = SubscriptionsUITests;
+			sourceTree = "<group>";
+		};
+		A998AC35236DBF18008756BD /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				A998ABFE236D9A91008756BD /* AppDelegate.swift */,
+				A998AC00236D9A91008756BD /* SceneDelegate.swift */,
+				A998AC05236D9A91008756BD /* ContentView.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		A998AC36236DBF36008756BD /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				A998AC31236D9D0B008756BD /* Subscription.swift */,
+				A998AC33236DA6BA008756BD /* SubscriptionView.swift */,
+			);
+			path = Subscription;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +299,7 @@
 				A998ABFF236D9A91008756BD /* AppDelegate.swift in Sources */,
 				A998AC06236D9A91008756BD /* ContentView.swift in Sources */,
 				A998AC01236D9A91008756BD /* SceneDelegate.swift in Sources */,
+				A998AC38236DBF5A008756BD /* UserSettings.swift in Sources */,
 				A998AC32236D9D0B008756BD /* Subscription.swift in Sources */,
 				A998AC34236DA6BA008756BD /* SubscriptionView.swift in Sources */,
 			);
@@ -447,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Subscriptions/Preview Content\"";
 				DEVELOPMENT_TEAM = 2UX5F544S3;
 				ENABLE_PREVIEWS = YES;
@@ -455,6 +476,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = it.ramsy.Subscriptions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -467,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Subscriptions/Preview Content\"";
 				DEVELOPMENT_TEAM = 2UX5F544S3;
 				ENABLE_PREVIEWS = YES;
@@ -475,6 +498,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1;
 				PRODUCT_BUNDLE_IDENTIFIER = it.ramsy.Subscriptions;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
